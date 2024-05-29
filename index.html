@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="js/main.js">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!--navbar-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="img-fluid" alt="logo">
+              </a>
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>"
+                <!--<span class="navbar-toggler-icon"></span>-->
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="#contact">Hire me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>WELCOME TO MY WORLD</h6>
+            <h1>I'm Shrushti Gawade <br><span>Web Developer.</span><br></h1>
+            <div class="mt-4">
+              <a class="main-btn" href="">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mt-lg-0">
+            <img src="images/about.jpeg" class="img-fluid rounded-3" alt="About-us">
+          </div>
+
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle"> My About Details</span>
+              <h2>About Me</h2>
+              <p>Hello! I'm Shrushti, currently in my third year pursuing Information Technology at NMIET College. My passion lies in web development, where I enjoy bringing creative ideas to life through code. I'm also proficient in Java programming, finding joy in building robust and efficient solutions.
+                <br>Feel free to explore my portfolio to see some of my projects and get in touch if you'd like to collaborate or connect</p>
+            </div>
+
+            <div class="pt-4">
+              <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skills</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill" data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award" aria-selected="false">Awards</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                </li>
+              </ul>
+
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab" >
+                  <div class="single-progress">
+                    <h6>Main Skills</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                      </div>
+                      <span class="label">90%</span>
+                  </div>
+                </div>
+
+                    <div class="single-progress">
+                      <h6>Management</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                        </div>
+                        <span class="label">85%</span>
+                    </div>
+                      
+                     <div class="single-progress">
+                        <h6>Marketing</h6>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                          </div>
+                          <span class="label">70%</span>
+                      </div>
+
+                      <div class="single-progress">
+                        <h6>development</h6>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          </div>
+                          <span class="label">80%</span>
+                        </div>
+                </div>
+                
+                <div class="tab-pane fade" id="pills-Award" role="tabpanel" aria-labelledby="pills-Award-tab" tabindex="0">
+                  <ul class="test-start ps-0">
+                    <li>
+                      <a href="#">Awards.com
+                        <span>- Winner</span></a> 2024-2023
+                    </li>
+                    <li>
+                      <a href="#"> CSS Design Awards
+                        <span>- Winner</span>
+                      </a>2022-2023
+                    </li>
+                    <li>
+                      <a href="#">Design nominees
+                        <span>- site of the day</span>
+                      </a>2021-20022
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">Java Intern<span>- Technohacks</span></a>2024 - Current
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab" tabindex="0">
+                  <ul class="text-start ps-0">
+                    <li><a href="#">IT Engineering <span>-SPPU University</span></a></li>
+                  </ul>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My Complete Project</span>
+            <h2>My Latest Project</h2>
+            <p>There are many variations in project <br class="d-none 
+            d-md-block">
+              but are listed in descending order of their the better performance and designing are.....</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 md-4">
+            <div class="card p-0">
+              <span style="background-image: url('./images/portfolio/netflix.png')"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 md-4">
+            <div class="card p-0">
+              <span style="background-image: url('./images/portfolio/to-do_app.png')"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 md-4">
+            <div class="card p-0">
+              <span style="background-image: url('./images/portfolio/weather_api.jpeg')"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+            <span class="subtitle">My Complete project</span>
+          <h2>Hire Me</h2>
+          <div class="row call_details mb-4">
+            <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a href="javascript:void(0)">+111 (0)55 5869 8976</a>
+            </div>
+
+            <label class="col-sm-3 col-lg-4">Contact Email:</label>
+            
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+          </div>
+
+          <form>
+            <div class="mb-4">
+              <input type="text" class="form-control" placeholder="Your Name....." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="number" class="form-control" placeholder="Your Phone number....." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="email" class="form-control" placeholder="Your email....." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <textarea cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message......." autocomplete="off"></textarea>
+            </div>
+            <button type="submit" class="main-btn">Submit</button> 
+          </form>
+
+          </div>
+
+          <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+            <img src="./images/image.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>
